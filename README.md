@@ -80,3 +80,21 @@ NetSentry-DPI-Java/
 ## Disclaimer
 
 Use this project only with packet captures you own or are authorized to analyze. It is intended for educational and defensive network-analysis purposes.
+
+
+## Demo Screenshots
+
+### 1. Sample PCAP Inspection
+
+Wireshark displays packets from the sample capture, including TCP traffic and TLS Client Hello messages.
+
+![Wireshark sample capture](docs/screenshots/wireshark-sample-capture.png)
+
+### 2. Domain Filtering Report
+
+The test run processed 77 packets, forwarded 76, and dropped 1 according to the configured domain filtering rule.
+
+![Domain filtering report](docs/screenshots/domain-filtering-report.png)
+
+> Note: NetSentry DPI performs offline PCAP filtering. It is not a live network firewall.
+

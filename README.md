@@ -1,2 +1,2 @@
 # NetSentry-DPI-Java
-Java-based Deep Packet Inspection prototype for offline PCAP analysis, application classification, domain filtering, and flow reporting.
+A Java-based Deep Packet Inspection (DPI) prototype for offline PCAP analysis, protocol inspection, application classification, configurable domain filtering, and CSV flow reporting.

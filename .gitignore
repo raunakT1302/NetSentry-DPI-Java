@@ -1,26 +1,21 @@
-target/
-*.pcap
-!samples/*.pcap
-*.csv
-*.log
-.idea/
-.vscode/
-.DS_Store
-
 
 # Maven build output
 target/
 
-# Generated packet captures and reports
-filtered.pcap
-blocked-test.pcap
-flows.csv
-blocked-flows.csv
+# Ignore packet captures except sample inputs
+*.pcap
+!samples/*.pcap
+
+# Generated CSV and log files
+*.csv
+*.log
 
 # IDE files
-.vscode/
 .idea/
+.vscode/
 
-# Secrets and environment files
+# Environment files and secrets
 .env
 
+# OS files
+.DS_Store
